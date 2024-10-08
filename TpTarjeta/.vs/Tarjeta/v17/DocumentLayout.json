@@ -1,21 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\varis\\Documents\\POO\\TpTarjeta\\",
+  "WorkspaceRootPath": "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|c:\\users\\varis\\documents\\poo\\tptarjeta\\tarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB209F4C-D1AC-4B91-AEE4-72EDD9D23966}|..\\TarjetaTest\\TarjetaTest.csproj|c:\\users\\varis\\documents\\tptarjeta\\tarjetatest\\tarjetatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|c:\\users\\varis\\documents\\tptarjeta\\tptarjeta\\tarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|solutionrelative:tarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|c:\\users\\varis\\documents\\poo\\tptarjeta\\boleto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|c:\\users\\varis\\documents\\tptarjeta\\tptarjeta\\boleto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|solutionrelative:boleto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|c:\\users\\varis\\documents\\poo\\tptarjeta\\colectivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|c:\\users\\varis\\documents\\tptarjeta\\tptarjeta\\colectivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|solutionrelative:colectivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|c:\\users\\varis\\documents\\poo\\tptarjeta\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|c:\\users\\varis\\documents\\tptarjeta\\tptarjeta\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,59 +29,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\varis\\Documents\\POO\\TpTarjeta\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\varis\\Documents\\POO\\TpTarjeta\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "TarjetaTest.cs",
+              "DocumentMoniker": "C:\\Users\\varis\\Documents\\TPTarjeta\\TarjetaTest\\TarjetaTest.cs",
+              "RelativeDocumentMoniker": "..\\TarjetaTest\\TarjetaTest.cs",
+              "ToolTip": "C:\\Users\\varis\\Documents\\TPTarjeta\\TarjetaTest\\TarjetaTest.cs",
+              "RelativeToolTip": "..\\TarjetaTest\\TarjetaTest.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwEQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T18:45:00.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Colectivo.cs",
-              "DocumentMoniker": "C:\\Users\\varis\\Documents\\POO\\TpTarjeta\\Colectivo.cs",
-              "RelativeDocumentMoniker": "Colectivo.cs",
-              "ToolTip": "C:\\Users\\varis\\Documents\\POO\\TpTarjeta\\Colectivo.cs",
-              "RelativeToolTip": "Colectivo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T19:54:46.554Z",
+              "WhenOpened": "2024-10-08T14:05:15.711Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Boleto.cs",
-              "DocumentMoniker": "C:\\Users\\varis\\Documents\\POO\\TpTarjeta\\Boleto.cs",
-              "RelativeDocumentMoniker": "Boleto.cs",
-              "ToolTip": "C:\\Users\\varis\\Documents\\POO\\TpTarjeta\\Boleto.cs",
-              "RelativeToolTip": "Boleto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Title": "Tarjeta.cs",
+              "DocumentMoniker": "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\Tarjeta.cs",
+              "RelativeDocumentMoniker": "Tarjeta.cs",
+              "ToolTip": "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\Tarjeta.cs",
+              "RelativeToolTip": "Tarjeta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T19:47:00.837Z",
+              "WhenOpened": "2024-09-17T20:01:20.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Tarjeta.cs",
-              "DocumentMoniker": "C:\\Users\\varis\\Documents\\POO\\TpTarjeta\\Tarjeta.cs",
-              "RelativeDocumentMoniker": "Tarjeta.cs",
-              "ToolTip": "C:\\Users\\varis\\Documents\\POO\\TpTarjeta\\Tarjeta.cs",
-              "RelativeToolTip": "Tarjeta.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBwAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T20:01:20.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-10T18:45:00.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Colectivo.cs",
+              "DocumentMoniker": "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\Colectivo.cs",
+              "RelativeDocumentMoniker": "Colectivo.cs",
+              "ToolTip": "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\Colectivo.cs",
+              "RelativeToolTip": "Colectivo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T19:54:46.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Boleto.cs",
+              "DocumentMoniker": "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\Boleto.cs",
+              "RelativeDocumentMoniker": "Boleto.cs",
+              "ToolTip": "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\Boleto.cs",
+              "RelativeToolTip": "Boleto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T19:47:00.837Z"
             }
           ]
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WBHK8plLl3E=",
+  "dgSpecHash": "O0Lzs5vjuys=",
   "success": true,
-  "projectFilePath": "C:\\Users\\varis\\Documents\\POO\\TarjetaTest\\TarjetaTest.csproj",
+  "projectFilePath": "C:\\Users\\varis\\Documents\\TPTarjeta\\TarjetaTest\\TarjetaTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\varis\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\varis\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\varis\\Documents\\POO\\TpTarjeta\\Tarjeta.csproj",
+      "projectUniqueName": "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\Tarjeta.csproj",
       "projectName": "Tarjeta",
-      "projectPath": "C:\\Users\\varis\\Documents\\POO\\TpTarjeta\\Tarjeta.csproj",
+      "projectPath": "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\Tarjeta.csproj",
       "packagesPath": "C:\\Users\\varis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\varis\\Documents\\POO\\TpTarjeta\\obj\\",
+      "outputPath": "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\varis\\AppData\\Roaming\\NuGet\\NuGet.Config",

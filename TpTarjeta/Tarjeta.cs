@@ -17,7 +17,7 @@
         }
 
         
-        public bool cobrarSaldo(float tarifa, float saldo)
+        public bool cobrarSaldo(float tarifa)
         {
             if (tarifa * parte <= saldo + 480)
             {

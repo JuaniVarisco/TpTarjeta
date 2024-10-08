@@ -27,9 +27,45 @@ namespace TarjetaTest
         [TestCase(940)]
 
         // Test cobrar saldo
-        public void cobrarSaldoTest(float tarifa)
+        public void cobrarSaldoSinSaldoTest(float tarifa)
         {
-            Assert.That(tarjeta.cobrarSaldo(tarifa, 0), Is.EqualTo(true));
+            Tarjeta tarjeta = new Tarjeta(); // Crear la tarjeta con saldo 0
+            tarjeta.saldo = 0; // Asignar saldo directamente
+            Assert.That(tarjeta.cobrarSaldo(tarifa), Is.EqualTo(false));
         }
+
+        [Test]
+        [TestCase(940)]
+        public void cobrarSaldoConSaldoTest(float tarifa)
+        {
+            Tarjeta tarjeta = new Tarjeta(); // Crear la tarjeta con saldo 0
+            tarjeta.saldo = 1000; // Asignar saldo directamente
+            Assert.That(tarjeta.cobrarSaldo(tarifa), Is.EqualTo(true));
+        }
+
+        // 
+        [Test]
+        [TestCase(460)]
+        [TestCase(459)]
+        public void verificarSaldoMinimo(float saldo)
+        {
+            Tarjeta tarjeta = new Tarjeta(); // Crear la tarjeta con saldo 0
+            tarjeta.saldo = saldo; // Asignar saldo directamente
+            Assert.That(tarjeta.cobrarSaldo(940), Is.EqualTo(true));
+        }
+
+        // caso en que el saldo es -480 (la maxima deuda permitida)
+        [Test]
+        [TestCase(2000)]
+        public void verificarCobro(int carga)
+        {
+            Tarjeta tarjeta = new Tarjeta(); // Crear la tarjeta con saldo 0
+            tarjeta.saldo = 460; // Asignar saldo directamente
+            Assert.That(tarjeta.cobrarSaldo(940), Is.EqualTo(true));
+            Assert.That(tarjeta.cargarSaldo(carga), Is.EqualTo(true));
+            Assert.That(tarjeta.getSaldo, Is.EqualTo(1520));
+        }
+
+        // Faltan los tests de franquicia de boleto
     }
 }
