@@ -43,10 +43,9 @@ namespace TarjetaTest
             Assert.That(tarjeta.cobrarSaldo(tarifa), Is.EqualTo(true));
         }
 
-        // 
         [Test]
         [TestCase(460)]
-        [TestCase(459)]
+        [TestCase(459)] // cambiar esto y ponerlo dentro del test los 2 casos
         public void verificarSaldoMinimo(float saldo)
         {
             Tarjeta tarjeta = new Tarjeta(); // Crear la tarjeta con saldo 0
