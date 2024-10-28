@@ -998,19 +998,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\varis\\.nuget\\packages\\": {}
+    "C:\\Users\\Mati\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\varis\\Documents\\TPTarjeta\\TarjetaTest\\TarjetaTest.csproj",
+      "projectUniqueName": "C:\\Users\\Mati\\Desktop\\csharp\\TpTarjeta\\TarjetaTest\\TarjetaTest.csproj",
       "projectName": "TarjetaTest",
-      "projectPath": "C:\\Users\\varis\\Documents\\TPTarjeta\\TarjetaTest\\TarjetaTest.csproj",
-      "packagesPath": "C:\\Users\\varis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\varis\\Documents\\TPTarjeta\\TarjetaTest\\obj\\",
+      "projectPath": "C:\\Users\\Mati\\Desktop\\csharp\\TpTarjeta\\TarjetaTest\\TarjetaTest.csproj",
+      "packagesPath": "C:\\Users\\Mati\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mati\\Desktop\\csharp\\TpTarjeta\\TarjetaTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\varis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mati\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1018,15 +1018,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\Tarjeta.csproj": {
-              "projectPath": "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\Tarjeta.csproj"
+            "C:\\Users\\Mati\\Desktop\\csharp\\TpTarjeta\\TpTarjeta\\Tarjeta.csproj": {
+              "projectPath": "C:\\Users\\Mati\\Desktop\\csharp\\TpTarjeta\\TpTarjeta\\Tarjeta.csproj"
             }
           }
         }
@@ -1083,7 +1082,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -3,13 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB209F4C-D1AC-4B91-AEE4-72EDD9D23966}|..\\TarjetaTest\\TarjetaTest.csproj|c:\\users\\varis\\documents\\tptarjeta\\tarjetatest\\boletotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|c:\\users\\varis\\documents\\tptarjeta\\tptarjeta\\boleto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|solutionrelative:boleto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FB209F4C-D1AC-4B91-AEE4-72EDD9D23966}|..\\TarjetaTest\\TarjetaTest.csproj|c:\\users\\varis\\documents\\tptarjeta\\tarjetatest\\tarjetatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -37,19 +30,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BoletoTest.cs",
-              "DocumentMoniker": "C:\\Users\\varis\\Documents\\TPTarjeta\\TarjetaTest\\BoletoTest.cs",
-              "RelativeDocumentMoniker": "..\\TarjetaTest\\BoletoTest.cs",
-              "ToolTip": "C:\\Users\\varis\\Documents\\TPTarjeta\\TarjetaTest\\BoletoTest.cs",
-              "RelativeToolTip": "..\\TarjetaTest\\BoletoTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T02:03:50.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "TarjetaTest.cs",
               "DocumentMoniker": "C:\\Users\\varis\\Documents\\TPTarjeta\\TarjetaTest\\TarjetaTest.cs",
               "RelativeDocumentMoniker": "..\\TarjetaTest\\TarjetaTest.cs",
@@ -62,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -75,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Colectivo.cs",
               "DocumentMoniker": "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\Colectivo.cs",
               "RelativeDocumentMoniker": "Colectivo.cs",
@@ -89,19 +69,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Boleto.cs",
-              "DocumentMoniker": "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\Boleto.cs",
-              "RelativeDocumentMoniker": "Boleto.cs",
-              "ToolTip": "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\Boleto.cs",
-              "RelativeToolTip": "Boleto.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAwC0AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T19:47:00.837Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Tarjeta.cs",
               "DocumentMoniker": "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\Tarjeta.cs",
               "RelativeDocumentMoniker": "Tarjeta.cs",
