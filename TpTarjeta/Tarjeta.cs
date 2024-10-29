@@ -6,6 +6,9 @@
         public float saldo;
         public float parte = 1;
         public float excedente = 0;
+        private DateTime ultimaTransaccion;
+        private int viajesDiarios = 0;
+
 
         public int getId()
         {
@@ -16,6 +19,19 @@
         {
             return saldo;
         }
+
+        public bool PuedeRealizarViaje()
+        {
+            if (parte == 0.5f)
+            {
+                if ((DateTime.Now - ultimaTransaccion).TotalMinutes < 5)
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
 
         public bool cobrarSaldo(float tarifa)
         {
