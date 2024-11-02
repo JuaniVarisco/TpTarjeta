@@ -27,6 +27,14 @@
             {
                 return false;
             }
+
+            if (this is Medio_Boleto || this is Boleto_Estudiantil || this is Boleto_Jubilados)
+            {
+                if (!(DateTime.Now.DayOfWeek >= DayOfWeek.Monday && DateTime.Now.DayOfWeek <= DayOfWeek.Friday && DateTime.Now.Hour >= 6 && DateTime.Now.Hour <= 22)) {
+                    return false;
+                }
+            }
+
             return true;
         }
 
