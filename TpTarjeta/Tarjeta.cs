@@ -121,22 +121,32 @@
 
     public class Boleto_Normal : Tarjeta
     {
-        public static new float parte = 1;
+        public Boleto_Normal()
+        {
+            parte = 1;
+        }
     }
     public class Medio_Boleto : Tarjeta
     {
-        public static new float parte = 0.5f;
+        public Medio_Boleto()
+        {
+            parte = 0.5f;
+        }
     }
 
     public class Boleto_Estudiantil : Tarjeta
     {
-        public static new float parte = 0;
+        public Boleto_Estudiantil()
+        {
+            parte = 0;
+        }
     }
 
     public class Boleto_Jubilados : Tarjeta
     {
-        public static new float parte = 0;
+        public Boleto_Jubilados()
+        {
+            parte = 0;
+        }
     }
 }
-
-// hola

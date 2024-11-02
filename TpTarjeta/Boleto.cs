@@ -87,5 +87,23 @@ namespace Tarjeta1
             return descripcionExtra;
         }
     }
+
+    public class Boleto_Urbano : Boleto
+    {
+        public Boleto_Urbano(int idBoleto, string tipoTarjeta, string lineaColectivo, float totalAbonado, float saldoRestante, bool cancelaSaldoNegativo = false)
+            : base(idBoleto, tipoTarjeta, lineaColectivo, totalAbonado, saldoRestante, cancelaSaldoNegativo)
+        {
+            precio = 1200;
+        }
+    }
+
+    public class Boleto_Larga_Distancia : Boleto
+    {
+        public Boleto_Larga_Distancia(int idBoleto, string tipoTarjeta, string lineaColectivo, float totalAbonado, float saldoRestante, bool cancelaSaldoNegativo = false)
+            : base(idBoleto, tipoTarjeta, lineaColectivo, totalAbonado, saldoRestante, cancelaSaldoNegativo)
+        {
+            precio = 2500;
+        }
+    }
 }
 
