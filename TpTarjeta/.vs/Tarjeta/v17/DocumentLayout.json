@@ -8,6 +8,9 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB209F4C-D1AC-4B91-AEE4-72EDD9D23966}|..\\TarjetaTest\\TarjetaTest.csproj|c:\\users\\mati\\desktop\\things\\tptarjeta\\tarjetatest\\tiempotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB209F4C-D1AC-4B91-AEE4-72EDD9D23966}|..\\TarjetaTest\\TarjetaTest.csproj|c:\\users\\mati\\desktop\\things\\tptarjeta\\tarjetatest\\testdias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,8 +20,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestDias.cs",
+              "DocumentMoniker": "C:\\Users\\Mati\\Desktop\\things\\TpTarjeta\\TarjetaTest\\TestDias.cs",
+              "RelativeDocumentMoniker": "..\\TarjetaTest\\TestDias.cs",
+              "ToolTip": "C:\\Users\\Mati\\Desktop\\things\\TpTarjeta\\TarjetaTest\\TestDias.cs",
+              "RelativeToolTip": "..\\TarjetaTest\\TestDias.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T19:31:04.279Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -27,7 +43,7 @@
               "RelativeDocumentMoniker": "..\\TarjetaTest\\TiempoTest.cs",
               "ToolTip": "C:\\Users\\Mati\\Desktop\\things\\TpTarjeta\\TarjetaTest\\TiempoTest.cs",
               "RelativeToolTip": "..\\TarjetaTest\\TiempoTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T19:08:11.889Z",
               "EditorCaption": ""
@@ -40,7 +56,7 @@
               "RelativeDocumentMoniker": "Tarjeta.cs",
               "ToolTip": "C:\\Users\\Mati\\Desktop\\things\\TpTarjeta\\TpTarjeta\\Tarjeta.cs",
               "RelativeToolTip": "Tarjeta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCoAAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T14:04:21.092Z",
               "EditorCaption": ""

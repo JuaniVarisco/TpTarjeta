@@ -22,6 +22,7 @@
 
         public bool PuedeRealizarViaje()
         {
+            
             if (this is Medio_Boleto && (DateTime.Now - ultimaTransaccion).TotalMinutes < 5)
             {
                 return false;
@@ -32,9 +33,16 @@
 
         public bool cobrarSaldo(float tarifa)
         {
-            if (tarifa * parte <= saldo + 480)
+            if(ultimaTransaccion.Date != DateTime.Now.Date)
             {
-                saldo -= tarifa * parte;
+                viajesDiarios = 0;
+            }
+            
+            float parteEnUso = (viajesDiarios < 4 && this is Medio_Boleto) ? 0.5f : 1;
+
+            if (tarifa * parteEnUso <= saldo + 480 && (PuedeRealizarViaje() || !(this is Medio_Boleto)))
+            {
+                saldo -= tarifa * parteEnUso;
                 if (saldo + excedente <= 66000)
                 {
                     saldo = saldo + excedente;
@@ -45,7 +53,9 @@
                     excedente = excedente + saldo - 66000;
                     saldo = 66000;
                 }
+
                 ultimaTransaccion = DateTime.Now;
+                viajesDiarios++;
                 return true;
             }
             else
