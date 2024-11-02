@@ -1,20 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\",
+  "WorkspaceRootPath": "C:\\Users\\Mati\\Desktop\\clon\\TpTarjeta\\TpTarjeta\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|c:\\users\\varis\\documents\\tptarjeta\\tptarjeta\\tarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|c:\\users\\mati\\desktop\\clon\\tptarjeta\\tptarjeta\\tarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|solutionrelative:tarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB209F4C-D1AC-4B91-AEE4-72EDD9D23966}|..\\TarjetaTest\\TarjetaTest.csproj|c:\\users\\varis\\documents\\tptarjeta\\tarjetatest\\tarjetatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB209F4C-D1AC-4B91-AEE4-72EDD9D23966}|..\\TarjetaTest\\TarjetaTest.csproj|c:\\users\\varis\\documents\\tptarjeta\\tarjetatest\\tiempotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|c:\\users\\varis\\documents\\tptarjeta\\tptarjeta\\boleto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|solutionrelative:boleto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB209F4C-D1AC-4B91-AEE4-72EDD9D23966}|..\\TarjetaTest\\TarjetaTest.csproj|c:\\users\\mati\\desktop\\clon\\tptarjeta\\tarjetatest\\estudiantil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,56 +17,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TarjetaTest.cs",
-              "DocumentMoniker": "C:\\Users\\varis\\Documents\\TPTarjeta\\TarjetaTest\\TarjetaTest.cs",
-              "RelativeDocumentMoniker": "..\\TarjetaTest\\TarjetaTest.cs",
-              "ToolTip": "C:\\Users\\varis\\Documents\\TPTarjeta\\TarjetaTest\\TarjetaTest.cs",
-              "RelativeToolTip": "..\\TarjetaTest\\TarjetaTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Estudiantil.cs",
+              "DocumentMoniker": "C:\\Users\\Mati\\Desktop\\clon\\TpTarjeta\\TarjetaTest\\Estudiantil.cs",
+              "RelativeDocumentMoniker": "..\\TarjetaTest\\Estudiantil.cs",
+              "ToolTip": "C:\\Users\\Mati\\Desktop\\clon\\TpTarjeta\\TarjetaTest\\Estudiantil.cs",
+              "RelativeToolTip": "..\\TarjetaTest\\Estudiantil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T21:02:45.018Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TiempoTest.cs",
-              "DocumentMoniker": "C:\\Users\\varis\\Documents\\TPTarjeta\\TarjetaTest\\TiempoTest.cs",
-              "RelativeDocumentMoniker": "..\\TarjetaTest\\TiempoTest.cs",
-              "ToolTip": "C:\\Users\\varis\\Documents\\TPTarjeta\\TarjetaTest\\TiempoTest.cs",
-              "RelativeToolTip": "..\\TarjetaTest\\TiempoTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T21:02:38.727Z"
+              "WhenOpened": "2024-11-02T21:12:42.709Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Tarjeta.cs",
-              "DocumentMoniker": "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\Tarjeta.cs",
+              "DocumentMoniker": "C:\\Users\\Mati\\Desktop\\clon\\TpTarjeta\\TpTarjeta\\Tarjeta.cs",
               "RelativeDocumentMoniker": "Tarjeta.cs",
-              "ToolTip": "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\Tarjeta.cs",
+              "ToolTip": "C:\\Users\\Mati\\Desktop\\clon\\TpTarjeta\\TpTarjeta\\Tarjeta.cs",
               "RelativeToolTip": "Tarjeta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAcwCcAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-17T20:01:20.349Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Boleto.cs",
-              "DocumentMoniker": "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\Boleto.cs",
-              "RelativeDocumentMoniker": "Boleto.cs",
-              "ToolTip": "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\Boleto.cs",
-              "RelativeToolTip": "Boleto.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADMAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T18:53:19.13Z"
             }
           ]
         }

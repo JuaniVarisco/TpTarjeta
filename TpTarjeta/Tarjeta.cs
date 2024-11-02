@@ -38,6 +38,7 @@
             }
             
             float parteEnUso = (viajesDiarios < 4 && this is Medio_Boleto) ? 0.5f : 1;
+            parteEnUso = (viajesDiarios < 2 && this is Boleto_Estudiantil) ? 0 : 1;
 
             if (tarifa * parteEnUso <= saldo + 480 && (PuedeRealizarViaje() || !(this is Medio_Boleto)))
             {
