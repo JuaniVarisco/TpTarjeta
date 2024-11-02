@@ -27,7 +27,7 @@ namespace Tarjeta1
 {
     public class Boleto
     {
-        public float precio = 940;
+        public float precio = 1200;
         private int idBoleto;
         private DateTime fecha;
         private string tipoTarjeta;
