@@ -38,7 +38,8 @@
             }
             
             float parteEnUso = (viajesDiarios < 4 && this is Medio_Boleto) ? 0.5f : 1;
-            parteEnUso = (viajesDiarios < 2 && this is Boleto_Estudiantil) ? 0 : 1;
+            parteEnUso = (viajesDiarios < 2 && this is Boleto_Estudiantil) ? 0 : parteEnUso;
+            parteEnUso = (this is Boleto_Jubilados) ? 0 : parteEnUso;
 
             if (tarifa * parteEnUso <= saldo + 480 && (PuedeRealizarViaje() || !(this is Medio_Boleto)))
             {
@@ -103,7 +104,7 @@
 
     public class Boleto_Jubilados : Tarjeta
     {
-        public static new float parte = 1;
+        public static new float parte = 0;
     }
 }
 

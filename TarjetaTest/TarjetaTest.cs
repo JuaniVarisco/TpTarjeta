@@ -45,12 +45,20 @@ namespace TarjetaTest
 
         [Test]
         [TestCase(460)]
-        [TestCase(459)] // cambiar esto y ponerlo dentro del test los 2 casos
+        // cambiar esto y ponerlo dentro del test los 2 casos
         public void verificarSaldoMinimo(float saldo)
         {
             Tarjeta tarjeta = new Tarjeta(); // Crear la tarjeta con saldo 0
             tarjeta.saldo = saldo; // Asignar saldo directamente
             Assert.That(tarjeta.cobrarSaldo(940), Is.EqualTo(true));
+        }
+        [Test]
+        [TestCase(459)] // cambiar esto y ponerlo dentro del test los 2 casos
+        public void verificarSaldoMinimoo(float saldo)
+        {
+            Tarjeta tarjeta = new Tarjeta(); // Crear la tarjeta con saldo 0
+            tarjeta.saldo = saldo; // Asignar saldo directamente
+            Assert.That(tarjeta.cobrarSaldo(940), Is.EqualTo(false));
         }
 
         // caso en que el saldo es -480 (la maxima deuda permitida)
@@ -65,6 +73,38 @@ namespace TarjetaTest
             Assert.That(tarjeta.getSaldo, Is.EqualTo(1520));
         }
 
-        // Faltan los tests de franquicia de boleto
+        // tests de franquicia de boleto
+        [Test]
+        [TestCase(940)]
+
+        public void cobrarfranquicia(float tarifa)
+        {
+            Tarjeta tarjeta = new Boleto_Jubilados(); // Crear la tarjeta con saldo 0
+            tarjeta.cargarSaldo(9000); // Asignar saldo directamente
+            Assert.That(tarjeta.cobrarSaldo(tarifa), Is.EqualTo(true));
+            Assert.That(tarjeta.getSaldo() == 9000, Is.EqualTo(true));
+        }
+
+        [Test]
+        [TestCase(940)]
+
+        public void cobrarfranquiciaa(float tarifa)
+        {
+            Tarjeta tarjeta = new Boleto_Estudiantil(); // Crear la tarjeta con saldo 0
+            tarjeta.cargarSaldo(9000); // Asignar saldo directamente
+            Assert.That(tarjeta.cobrarSaldo(tarifa), Is.EqualTo(true));
+            Assert.That(tarjeta.getSaldo() == 9000, Is.EqualTo(true));
+        }
+
+        [Test]
+        [TestCase(940)]
+
+        public void cobrarmedio(float tarifa)
+        {
+            Tarjeta tarjeta = new Medio_Boleto(); // Crear la tarjeta con saldo 0
+            tarjeta.cargarSaldo(9000); // Asignar saldo directamente
+            Assert.That(tarjeta.cobrarSaldo(tarifa), Is.EqualTo(true));
+            Assert.That(tarjeta.getSaldo() == (9000 - 470), Is.EqualTo(true));
+        }
     }
 }
