@@ -1,0 +1,5 @@
+/TarjetaTest/bin/
+/TarjetaTest/obj/
+/TpTarjeta/bin/
+/TpTarjeta/obj/
+/TpTarjeta/.vs/

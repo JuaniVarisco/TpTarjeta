@@ -3,16 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB209F4C-D1AC-4B91-AEE4-72EDD9D23966}|..\\TarjetaTest\\TarjetaTest.csproj|c:\\users\\varis\\documents\\tptarjeta\\tarjetatest\\boletotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB209F4C-D1AC-4B91-AEE4-72EDD9D23966}|..\\TarjetaTest\\TarjetaTest.csproj|c:\\users\\varis\\documents\\tptarjeta\\tarjetatest\\tiempotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|c:\\users\\varis\\documents\\tptarjeta\\tptarjeta\\boleto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|solutionrelative:boleto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB209F4C-D1AC-4B91-AEE4-72EDD9D23966}|..\\TarjetaTest\\TarjetaTest.csproj|c:\\users\\varis\\documents\\tptarjeta\\tarjetatest\\tarjetatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|c:\\users\\varis\\documents\\tptarjeta\\tptarjeta\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,6 +15,8 @@
       "RelativeMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|solutionrelative:colectivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+=======
+>>>>>>> iteracion3_limitacion-en-el-pago-de-medio-boletos
       "AbsoluteMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|c:\\users\\varis\\documents\\tptarjeta\\tptarjeta\\tarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|solutionrelative:tarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -37,6 +33,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
               "Title": "BoletoTest.cs",
               "DocumentMoniker": "C:\\Users\\varis\\Documents\\TPTarjeta\\TarjetaTest\\BoletoTest.cs",
               "RelativeDocumentMoniker": "..\\TarjetaTest\\BoletoTest.cs",
@@ -99,14 +96,36 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
+=======
+              "Title": "TiempoTest.cs",
+              "DocumentMoniker": "C:\\Users\\varis\\Documents\\TPTarjeta\\TarjetaTest\\TiempoTest.cs",
+              "RelativeDocumentMoniker": "..\\TarjetaTest\\TiempoTest.cs",
+              "ToolTip": "C:\\Users\\varis\\Documents\\TPTarjeta\\TarjetaTest\\TiempoTest.cs",
+              "RelativeToolTip": "..\\TarjetaTest\\TiempoTest.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T20:47:03.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+>>>>>>> iteracion3_limitacion-en-el-pago-de-medio-boletos
               "Title": "Tarjeta.cs",
               "DocumentMoniker": "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\Tarjeta.cs",
               "RelativeDocumentMoniker": "Tarjeta.cs",
               "ToolTip": "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\Tarjeta.cs",
               "RelativeToolTip": "Tarjeta.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-17T20:01:20.349Z"
+=======
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCoAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T14:04:21.092Z",
+              "EditorCaption": ""
+>>>>>>> iteracion3_limitacion-en-el-pago-de-medio-boletos
             }
           ]
         }
