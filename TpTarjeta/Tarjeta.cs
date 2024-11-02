@@ -6,19 +6,9 @@
         public float saldo;
         public float parte = 1;
         public float excedente = 0;
-        private DateTime ultimaTransaccion;
+        private DateTime ultimaTransaccion = DateTime.MinValue;
+        private int viajesDiarios = 0;
 
-        public bool PuedeRealizarViaje()
-        {
-            if (parte == 0.5f)
-            {
-                if ((DateTime.Now - ultimaTransaccion).TotalMinutes < 5)
-                {
-                    return false;
-                }
-            }
-            return true;
-        }
 
         public int getId()
         {
@@ -30,9 +20,19 @@
             return saldo;
         }
 
+        public bool PuedeRealizarViaje()
+        {
+            if (this is Medio_Boleto && (DateTime.Now - ultimaTransaccion).TotalMinutes < 5)
+            {
+                return false;
+            }
+            return true;
+        }
+
+
         public bool cobrarSaldo(float tarifa)
         {
-            if (tarifa * parte <= saldo + 480 && PuedeRealizarViaje())
+            if (tarifa * parte <= saldo + 480)
             {
                 saldo -= tarifa * parte;
                 if (saldo + excedente <= 66000)
@@ -45,6 +45,7 @@
                     excedente = excedente + saldo - 66000;
                     saldo = 66000;
                 }
+                ultimaTransaccion = DateTime.Now;
                 return true;
             }
             else

@@ -1003,11 +1003,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mati\\Desktop\\csharp\\TpTarjeta\\TarjetaTest\\TarjetaTest.csproj",
+      "projectUniqueName": "C:\\Users\\Mati\\Desktop\\things\\TpTarjeta\\TarjetaTest\\TarjetaTest.csproj",
       "projectName": "TarjetaTest",
-      "projectPath": "C:\\Users\\Mati\\Desktop\\csharp\\TpTarjeta\\TarjetaTest\\TarjetaTest.csproj",
+      "projectPath": "C:\\Users\\Mati\\Desktop\\things\\TpTarjeta\\TarjetaTest\\TarjetaTest.csproj",
       "packagesPath": "C:\\Users\\Mati\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mati\\Desktop\\csharp\\TpTarjeta\\TarjetaTest\\obj\\",
+      "outputPath": "C:\\Users\\Mati\\Desktop\\things\\TpTarjeta\\TarjetaTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mati\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1024,8 +1024,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Mati\\Desktop\\csharp\\TpTarjeta\\TpTarjeta\\Tarjeta.csproj": {
-              "projectPath": "C:\\Users\\Mati\\Desktop\\csharp\\TpTarjeta\\TpTarjeta\\Tarjeta.csproj"
+            "C:\\Users\\Mati\\Desktop\\things\\TpTarjeta\\TpTarjeta\\Tarjeta.csproj": {
+              "projectPath": "C:\\Users\\Mati\\Desktop\\things\\TpTarjeta\\TpTarjeta\\Tarjeta.csproj"
             }
           }
         }

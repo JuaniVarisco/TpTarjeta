@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mati\\Desktop\\csharp\\TpTarjeta\\TpTarjeta\\Tarjeta.csproj",
+      "projectUniqueName": "C:\\Users\\Mati\\Desktop\\things\\TpTarjeta\\TpTarjeta\\Tarjeta.csproj",
       "projectName": "Tarjeta",
-      "projectPath": "C:\\Users\\Mati\\Desktop\\csharp\\TpTarjeta\\TpTarjeta\\Tarjeta.csproj",
+      "projectPath": "C:\\Users\\Mati\\Desktop\\things\\TpTarjeta\\TpTarjeta\\Tarjeta.csproj",
       "packagesPath": "C:\\Users\\Mati\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mati\\Desktop\\csharp\\TpTarjeta\\TpTarjeta\\obj\\",
+      "outputPath": "C:\\Users\\Mati\\Desktop\\things\\TpTarjeta\\TpTarjeta\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mati\\AppData\\Roaming\\NuGet\\NuGet.Config",
