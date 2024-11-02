@@ -8,6 +8,7 @@
         public float excedente = 0;
         private DateTime ultimaTransaccion = DateTime.MinValue;
         private int viajesDiarios = 0;
+        private int viajesMensuales = 0;
 
 
         public int getId()
@@ -36,10 +37,31 @@
             {
                 viajesDiarios = 0;
             }
-            
+
+            if (ultimaTransaccion.Month != DateTime.Now.Month || ultimaTransaccion.Year != DateTime.Now.Year)
+            {
+                viajesMensuales = 0;
+            }
+
             float parteEnUso = (viajesDiarios < 4 && this is Medio_Boleto) ? 0.5f : 1;
             parteEnUso = (viajesDiarios < 2 && this is Boleto_Estudiantil) ? 0 : parteEnUso;
             parteEnUso = (this is Boleto_Jubilados) ? 0 : parteEnUso;
+
+            if(this is Boleto_Normal)
+            {
+                if(viajesMensuales > 28)
+                {
+                    parteEnUso = 0.8f;
+                }
+                if (viajesMensuales > 78)
+                {
+                    parteEnUso = 0.75f;
+                }
+                if (viajesMensuales > 79)
+                {
+                    parteEnUso = 1;
+                }
+            }
 
             if (tarifa * parteEnUso <= saldo + 480 && (PuedeRealizarViaje() || !(this is Medio_Boleto)))
             {
@@ -57,6 +79,7 @@
 
                 ultimaTransaccion = DateTime.Now;
                 viajesDiarios++;
+                viajesMensuales++;
                 return true;
             }
             else
