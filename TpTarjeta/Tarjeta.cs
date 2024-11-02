@@ -6,11 +6,7 @@
         public float saldo;
         public float parte = 1;
         public float excedente = 0;
-<<<<<<< HEAD
-        private DateTime ultimaTransaccion;
-=======
         private DateTime ultimaTransaccion = DateTime.MinValue;
->>>>>>> iteracion3_limitacion-en-el-pago-de-medio-boletos
         private int viajesDiarios = 0;
 
 
@@ -25,20 +21,10 @@
         }
 
         public bool PuedeRealizarViaje()
-        {
-<<<<<<< HEAD
-            if (parte == 0.5f)
-            {
-                if ((DateTime.Now - ultimaTransaccion).TotalMinutes < 5)
-                {
-                    return false;
-                }
-=======
-            
+        {            
             if (this is Medio_Boleto && (DateTime.Now - ultimaTransaccion).TotalMinutes < 5)
             {
                 return false;
->>>>>>> iteracion3_limitacion-en-el-pago-de-medio-boletos
             }
             return true;
         }

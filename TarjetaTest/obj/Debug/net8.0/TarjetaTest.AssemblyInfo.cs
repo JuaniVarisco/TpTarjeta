@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TarjetaTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dea63dcf836f5474974a613f238f39c68b45aeb5")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1523d2c768258f87a7b84ccea5c62d5a6694cef")]
->>>>>>> iteracion3_limitacion-en-el-pago-de-medio-boletos
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48b74da4817cafa2f5122e587b14125d8a465372")]
 [assembly: System.Reflection.AssemblyProductAttribute("TarjetaTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TarjetaTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

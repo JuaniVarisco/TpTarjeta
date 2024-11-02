@@ -7,12 +7,14 @@
       "RelativeMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|solutionrelative:tarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{FB209F4C-D1AC-4B91-AEE4-72EDD9D23966}|..\\TarjetaTest\\TarjetaTest.csproj|c:\\users\\varis\\documents\\tptarjeta\\tarjetatest\\tarjetatest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB209F4C-D1AC-4B91-AEE4-72EDD9D23966}|..\\TarjetaTest\\TarjetaTest.csproj|c:\\users\\varis\\documents\\tptarjeta\\tarjetatest\\tiempotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|c:\\users\\varis\\documents\\tptarjeta\\tptarjeta\\boleto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|solutionrelative:boleto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{FB209F4C-D1AC-4B91-AEE4-72EDD9D23966}|..\\TarjetaTest\\TarjetaTest.csproj|c:\\users\\varis\\documents\\tptarjeta\\tarjetatest\\tiempotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> iteracion3_limitacion-en-el-pago-de-medio-boletos
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +24,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-<<<<<<< HEAD
-=======
               "DocumentIndex": 1,
+              "Title": "TarjetaTest.cs",
+              "DocumentMoniker": "C:\\Users\\varis\\Documents\\TPTarjeta\\TarjetaTest\\TarjetaTest.cs",
+              "RelativeDocumentMoniker": "..\\TarjetaTest\\TarjetaTest.cs",
+              "ToolTip": "C:\\Users\\varis\\Documents\\TPTarjeta\\TarjetaTest\\TarjetaTest.cs",
+              "RelativeToolTip": "..\\TarjetaTest\\TarjetaTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T21:02:45.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TiempoTest.cs",
               "DocumentMoniker": "C:\\Users\\varis\\Documents\\TPTarjeta\\TarjetaTest\\TiempoTest.cs",
               "RelativeDocumentMoniker": "..\\TarjetaTest\\TiempoTest.cs",
               "ToolTip": "C:\\Users\\varis\\Documents\\TPTarjeta\\TarjetaTest\\TiempoTest.cs",
               "RelativeToolTip": "..\\TarjetaTest\\TiempoTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T20:47:03.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T21:02:38.727Z"
             },
             {
               "$type": "Document",
->>>>>>> iteracion3_limitacion-en-el-pago-de-medio-boletos
               "DocumentIndex": 0,
               "Title": "Tarjeta.cs",
               "DocumentMoniker": "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\Tarjeta.cs",
               "RelativeDocumentMoniker": "Tarjeta.cs",
               "ToolTip": "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\Tarjeta.cs",
               "RelativeToolTip": "Tarjeta.cs",
-<<<<<<< HEAD
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCAAAAAJAAAAAAAAAA==",
-=======
-              "ViewState": "AgIAAFQAAAAAAAAAAAAswG0AAAAHAAAAAAAAAA==",
->>>>>>> iteracion3_limitacion-en-el-pago-de-medio-boletos
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T14:04:21.092Z",
+              "WhenOpened": "2024-09-17T20:01:20.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Boleto.cs",
               "DocumentMoniker": "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\Boleto.cs",
               "RelativeDocumentMoniker": "Boleto.cs",
@@ -67,8 +73,7 @@
               "RelativeToolTip": "Boleto.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAAADMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T18:53:19.13Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T18:53:19.13Z"
             }
           ]
         }
