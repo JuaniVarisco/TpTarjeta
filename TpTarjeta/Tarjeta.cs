@@ -21,16 +21,16 @@
             return saldo;
         }
 
-        public bool PuedeRealizarViaje()
+        public bool PuedeRealizarViaje(DateTime tiempo)
         {            
-            if (this is Medio_Boleto && (DateTime.Now - ultimaTransaccion).TotalMinutes < 5)
+            if (this is Medio_Boleto && (tiempo - ultimaTransaccion).TotalMinutes < 5)
             {
                 return false;
             }
 
             if (this is Medio_Boleto || this is Boleto_Estudiantil || this is Boleto_Jubilados)
             {
-                if (!(DateTime.Now.DayOfWeek >= DayOfWeek.Monday && DateTime.Now.DayOfWeek <= DayOfWeek.Friday && DateTime.Now.Hour >= 6 && DateTime.Now.Hour <= 22)) {
+                if (!(tiempo.DayOfWeek >= DayOfWeek.Monday && tiempo.DayOfWeek <= DayOfWeek.Friday && tiempo.Hour >= 6 && tiempo.Hour <= 22)) {
                     return false;
                 }
             }
@@ -39,14 +39,14 @@
         }
 
 
-        public bool cobrarSaldo(float tarifa)
+        public bool cobrarSaldo(float tarifa, DateTime tiempo)
         {
-            if(ultimaTransaccion.Date != DateTime.Now.Date)
+            if(ultimaTransaccion.Date != tiempo.Date)
             {
                 viajesDiarios = 0;
             }
 
-            if (ultimaTransaccion.Month != DateTime.Now.Month || ultimaTransaccion.Year != DateTime.Now.Year)
+            if (ultimaTransaccion.Month != tiempo.Month || ultimaTransaccion.Year != tiempo.Year)
             {
                 viajesMensuales = 0;
             }
@@ -71,7 +71,7 @@
                 }
             }
 
-            if (tarifa * parteEnUso <= saldo + 480 && (PuedeRealizarViaje() || !(this is Medio_Boleto)))
+            if (tarifa * parteEnUso <= saldo + 480 && (PuedeRealizarViaje(tiempo) || !(this is Medio_Boleto)))
             {
                 saldo -= tarifa * parteEnUso;
                 if (saldo + excedente <= 66000)
@@ -85,7 +85,7 @@
                     saldo = 66000;
                 }
 
-                ultimaTransaccion = DateTime.Now;
+                ultimaTransaccion = tiempo;
                 viajesDiarios++;
                 viajesMensuales++;
                 return true;

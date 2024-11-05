@@ -36,14 +36,14 @@ namespace Tarjeta1
         private float saldoRestante;
         private string descripcionExtra;
 
-        public Boleto(int idBoleto, string tipoTarjeta, string lineaColectivo, float totalAbonado, float saldoRestante, bool cancelaSaldoNegativo = false)
+        public Boleto(int idBoleto, string tipoTarjeta, string lineaColectivo, float totalAbonado, float saldoRestante, DateTime tiempo, bool cancelaSaldoNegativo = false)
         {
             this.idBoleto = idBoleto;
             this.tipoTarjeta = tipoTarjeta;
             this.lineaColectivo = lineaColectivo;
             this.totalAbonado = totalAbonado;
             this.saldoRestante = saldoRestante;
-            this.fecha = DateTime.Now;
+            this.fecha = tiempo;
             this.descripcionExtra = cancelaSaldoNegativo ? $"Abona saldo {totalAbonado}" : "Pago normal";
         }
 
@@ -90,8 +90,8 @@ namespace Tarjeta1
 
     public class Boleto_Urbano : Boleto
     {
-        public Boleto_Urbano(int idBoleto, string tipoTarjeta, string lineaColectivo, float totalAbonado, float saldoRestante, bool cancelaSaldoNegativo = false)
-            : base(idBoleto, tipoTarjeta, lineaColectivo, totalAbonado, saldoRestante, cancelaSaldoNegativo)
+        public Boleto_Urbano(int idBoleto, string tipoTarjeta, string lineaColectivo, float totalAbonado, float saldoRestante, DateTime tiempo, bool cancelaSaldoNegativo = false)
+            : base(idBoleto, tipoTarjeta, lineaColectivo, totalAbonado, saldoRestante, tiempo, cancelaSaldoNegativo)
         {
             precio = 1200;
         }
@@ -99,8 +99,8 @@ namespace Tarjeta1
 
     public class Boleto_Larga_Distancia : Boleto
     {
-        public Boleto_Larga_Distancia(int idBoleto, string tipoTarjeta, string lineaColectivo, float totalAbonado, float saldoRestante, bool cancelaSaldoNegativo = false)
-            : base(idBoleto, tipoTarjeta, lineaColectivo, totalAbonado, saldoRestante, cancelaSaldoNegativo)
+        public Boleto_Larga_Distancia(int idBoleto, string tipoTarjeta, string lineaColectivo, float totalAbonado, float saldoRestante, DateTime tiempo, bool cancelaSaldoNegativo = false)
+            : base(idBoleto, tipoTarjeta, lineaColectivo, totalAbonado, saldoRestante, tiempo, cancelaSaldoNegativo)
         {
             precio = 2500;
         }

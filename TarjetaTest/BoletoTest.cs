@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ManejoDeTiempos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,29 +11,34 @@ namespace TarjetaTest
     public class BoletoTest
     {
         public Boleto boleto;
+        public TiempoFalso tiempoFalso;
+
 
         [SetUp]
         public void Setup()
         {
-            boleto = new Boleto(1, "Normal", "105", 940, 60);
+            tiempoFalso = new TiempoFalso();
         }
 
         [Test]
-        [TestCase("Normal", "105", 940, 60)]
-        public void CrearBoleto_PagoNormal_DeberiaCrearBoletoCorrectamente(string tipoTarjeta, string lineaColectivo, float totalAbonado, float saldoRestante)
+        //[TestCase("Normal", "105", 940, 60, tiempoFalso)]
+        public void CrearBoleto_PagoNormal_DeberiaCrearBoletoCorrectamente()
         {
+            DateTime tiempo = tiempoFalso.Now();
+            boleto = new Boleto(1, "Normal", "105", 940, 60, tiempo);
+
             // Arrange
             int idBoleto = 1;
 
             // Act
-            Boleto boleto = new Boleto(idBoleto, tipoTarjeta, lineaColectivo, totalAbonado, saldoRestante);
+            //Boleto boleto = new Boleto(idBoleto, tipoTarjeta, lineaColectivo, totalAbonado, saldoRestante, tiempo);
 
             // Assert
             Assert.That(boleto.getIdBoleto(), Is.EqualTo(idBoleto));
-            Assert.That(boleto.getTipoTarjeta(), Is.EqualTo(tipoTarjeta));
-            Assert.That(boleto.getLineaColectivo(), Is.EqualTo(lineaColectivo));
-            Assert.That(boleto.getTotalAbonado(), Is.EqualTo(totalAbonado));
-            Assert.That(boleto.getSaldoRestante(), Is.EqualTo(saldoRestante));
+            Assert.That(boleto.getTipoTarjeta(), Is.EqualTo("Normal"));
+            Assert.That(boleto.getLineaColectivo(), Is.EqualTo("105"));
+            Assert.That(boleto.getTotalAbonado(), Is.EqualTo(940));
+            Assert.That(boleto.getSaldoRestante(), Is.EqualTo(60));
             Assert.That(boleto.getDescripcionExtra(), Is.EqualTo("Pago normal"));
         }
 

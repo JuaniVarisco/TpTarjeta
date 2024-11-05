@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\varis\\Documents\\TpTarjeta\\TpTarjeta\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|c:\\users\\varis\\documents\\tptarjeta\\tptarjeta\\tarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|solutionrelative:tarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FB209F4C-D1AC-4B91-AEE4-72EDD9D23966}|..\\TarjetaTest\\TarjetaTest.csproj|c:\\users\\varis\\documents\\tptarjeta\\tarjetatest\\tipoboleto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -12,10 +16,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|c:\\users\\varis\\documents\\tptarjeta\\tptarjeta\\boleto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|solutionrelative:boleto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|c:\\users\\varis\\documents\\tptarjeta\\tptarjeta\\tarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1E520A4-3DB0-42C8-B587-00D1D2746067}|Tarjeta.csproj|solutionrelative:tarjeta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB209F4C-D1AC-4B91-AEE4-72EDD9D23966}|..\\TarjetaTest\\TarjetaTest.csproj|c:\\users\\varis\\documents\\tptarjeta\\tarjetatest\\tiempotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -28,7 +28,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -45,7 +45,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Colectivo.cs",
               "DocumentMoniker": "C:\\Users\\varis\\Documents\\TpTarjeta\\TpTarjeta\\Colectivo.cs",
               "RelativeDocumentMoniker": "Colectivo.cs",
@@ -58,7 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TipoBoleto.cs",
               "DocumentMoniker": "C:\\Users\\varis\\Documents\\TpTarjeta\\TarjetaTest\\TipoBoleto.cs",
               "RelativeDocumentMoniker": "..\\TarjetaTest\\TipoBoleto.cs",
@@ -71,20 +71,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Tarjeta.cs",
               "DocumentMoniker": "C:\\Users\\varis\\Documents\\TpTarjeta\\TpTarjeta\\Tarjeta.cs",
               "RelativeDocumentMoniker": "Tarjeta.cs",
               "ToolTip": "C:\\Users\\varis\\Documents\\TpTarjeta\\TpTarjeta\\Tarjeta.cs",
               "RelativeToolTip": "Tarjeta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T22:47:33.808Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Boleto.cs",
               "DocumentMoniker": "C:\\Users\\varis\\Documents\\TpTarjeta\\TpTarjeta\\Boleto.cs",
               "RelativeDocumentMoniker": "Boleto.cs",

@@ -1003,11 +1003,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\varis\\Documents\\TpTarjeta\\TarjetaTest\\TarjetaTest.csproj",
+      "projectUniqueName": "C:\\Users\\varis\\Documents\\TPTarjeta\\TarjetaTest\\TarjetaTest.csproj",
       "projectName": "TarjetaTest",
-      "projectPath": "C:\\Users\\varis\\Documents\\TpTarjeta\\TarjetaTest\\TarjetaTest.csproj",
+      "projectPath": "C:\\Users\\varis\\Documents\\TPTarjeta\\TarjetaTest\\TarjetaTest.csproj",
       "packagesPath": "C:\\Users\\varis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\varis\\Documents\\TpTarjeta\\TarjetaTest\\obj\\",
+      "outputPath": "C:\\Users\\varis\\Documents\\TPTarjeta\\TarjetaTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\varis\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1025,8 +1025,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\varis\\Documents\\TpTarjeta\\TpTarjeta\\Tarjeta.csproj": {
-              "projectPath": "C:\\Users\\varis\\Documents\\TpTarjeta\\TpTarjeta\\Tarjeta.csproj"
+            "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\Tarjeta.csproj": {
+              "projectPath": "C:\\Users\\varis\\Documents\\TPTarjeta\\TpTarjeta\\Tarjeta.csproj"
             }
           }
         }
