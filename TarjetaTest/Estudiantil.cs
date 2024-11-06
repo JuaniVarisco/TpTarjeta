@@ -1,4 +1,6 @@
-﻿using Tarjeta1;
+﻿/*
+using ManejoDeTiempos;
+using Tarjeta1;
 
 namespace TarjetaTest
 {
@@ -6,19 +8,22 @@ namespace TarjetaTest
     {
 
         public Tarjeta tarjeta;
+        public TiempoFalso tiempoFalso;
 
         [SetUp]
         public void Setup()
         {
             tarjeta = new Boleto_Estudiantil();
+            tiempoFalso = new TiempoFalso();
         }
         [Test]
         [TestCase(940)]
         public void VaDiasTest(float tarifa)
         {
+            DateTime tiempo = tiempoFalso.Now();
             tarjeta.cargarSaldo(9000);
-            tarjeta.cobrarSaldo(tarifa);
-            tarjeta.cobrarSaldo(tarifa);
+            tarjeta.cobrarSaldo(tarifa, tiempo);
+            tarjeta.cobrarSaldo(tarifa, tiempo);
             Assert.That(tarjeta.getSaldo() == 9000, Is.EqualTo(true));
         }
 
@@ -26,11 +31,13 @@ namespace TarjetaTest
         [TestCase(940)]
         public void InDiasTest(float tarifa)
         {
+            DateTime tiempo = tiempoFalso.Now();
             tarjeta.cargarSaldo(9000);
-            tarjeta.cobrarSaldo(tarifa);
-            tarjeta.cobrarSaldo(tarifa);
-            tarjeta.cobrarSaldo(tarifa);
+            tarjeta.cobrarSaldo(tarifa, tiempo);
+            tarjeta.cobrarSaldo(tarifa, tiempo);
+            tarjeta.cobrarSaldo(tarifa, tiempo);
             Assert.That(tarjeta.getSaldo() == (9000 - 940), Is.EqualTo(true));
         }
     }
 }
+*/

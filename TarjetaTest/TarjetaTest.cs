@@ -7,13 +7,26 @@ namespace TarjetaTest
     {
 
         public Tarjeta tarjeta;
+        public Tarjeta tarjetaEstudiantil;
+        public Tarjeta tarjetaMedioBoleto;
+        public Tarjeta tarjetaNormal;
+
         public TiempoFalso tiempoFalso;
+
 
         [SetUp]
         public void Setup()
         {
             tarjeta = new Tarjeta();
             tiempoFalso = new TiempoFalso();
+
+            // Estudiantil
+            tarjetaEstudiantil = new Boleto_Estudiantil();
+
+            // Medio boleto
+            tarjetaMedioBoleto = new Medio_Boleto();
+
+            tarjetaNormal = new Boleto_Normal();
         }
 
         [Test]
@@ -116,6 +129,125 @@ namespace TarjetaTest
             tarjeta.cargarSaldo(9000); // Asignar saldo directamente
             Assert.That(tarjeta.cobrarSaldo(tarifa, tiempo), Is.EqualTo(true));
             Assert.That(tarjeta.getSaldo() == (9000 - 470), Is.EqualTo(true));
+        }
+
+        // TEST 4/5 VIAJES MEDIO BOLETO . ITERACION 3 -----------------------------------------------------------------
+        
+        [Test]
+        [TestCase(940)]
+        public void DiasTest1(float tarifa)
+        {
+            DateTime tiempo = tiempoFalso.Now();
+            tarjetaMedioBoleto.cargarSaldo(9000);
+            tarjetaMedioBoleto.cobrarSaldo(tarifa, tiempo);
+            tiempoFalso.AgregarMinutos(5);
+            tiempo = tiempoFalso.Now();
+            tarjetaMedioBoleto.cobrarSaldo(tarifa, tiempo);
+            tiempoFalso.AgregarMinutos(5);
+            tiempo = tiempoFalso.Now();
+            tarjetaMedioBoleto.cobrarSaldo(tarifa, tiempo);
+            tiempoFalso.AgregarMinutos(5);
+            tiempo = tiempoFalso.Now();
+            tarjetaMedioBoleto.cobrarSaldo(tarifa, tiempo);
+            Assert.That(tarjetaMedioBoleto.getSaldo() == (9000 - 470 * 4), Is.EqualTo(true));
+        }
+
+        [Test]
+        [TestCase(940)]
+        public void NoDiasTest(float tarifa)
+        {
+            DateTime tiempo = tiempoFalso.Now();
+            tarjetaMedioBoleto.cargarSaldo(9000);
+            tarjetaMedioBoleto.cobrarSaldo(tarifa, tiempo);
+            tiempoFalso.AgregarMinutos(5);
+            tiempo = tiempoFalso.Now();
+            tarjetaMedioBoleto.cobrarSaldo(tarifa, tiempo);
+            tiempoFalso.AgregarMinutos(5);
+            tiempo = tiempoFalso.Now();
+            tarjetaMedioBoleto.cobrarSaldo(tarifa, tiempo);
+            tiempoFalso.AgregarMinutos(5);
+            tiempo = tiempoFalso.Now();
+            tarjetaMedioBoleto.cobrarSaldo(tarifa, tiempo);
+            tiempoFalso.AgregarMinutos(5);
+            tiempo = tiempoFalso.Now();
+            tarjetaMedioBoleto.cobrarSaldo(tarifa, tiempo);
+            Assert.That(tarjetaMedioBoleto.getSaldo() == (9000 - 470 * 4 - 940), Is.EqualTo(true));
+        }
+
+        // TEST ESTUDIANTIL . ITERACION 3 -----------------------------------------------------------------
+        [Test]
+        [TestCase(940)]
+        public void VaDiasTest(float tarifa)
+        {
+            DateTime tiempo = tiempoFalso.Now();
+            tarjetaEstudiantil.cargarSaldo(9000);
+            tarjetaEstudiantil.cobrarSaldo(tarifa, tiempo);
+            tarjetaEstudiantil.cobrarSaldo(tarifa, tiempo);
+            Assert.That(tarjetaEstudiantil.getSaldo() == 9000, Is.EqualTo(true));
+        }
+
+        [Test]
+        [TestCase(940)]
+        public void InDiasTest(float tarifa)
+        {
+            DateTime tiempo = tiempoFalso.Now();
+            tarjetaEstudiantil.cargarSaldo(9000);
+            tarjetaEstudiantil.cobrarSaldo(tarifa, tiempo);
+            tarjetaEstudiantil.cobrarSaldo(tarifa, tiempo);
+            tarjetaEstudiantil.cobrarSaldo(tarifa, tiempo);
+            Assert.That(tarjetaEstudiantil.getSaldo() == (9000 - 940), Is.EqualTo(true));
+        }
+
+        // TEST DE USO FRECUENTE . ITERACION 4 -----------------------------------------------------------------
+        [Test]
+        [TestCase(100)]
+        public void LimiteUno(float tarifa)
+        {
+            DateTime tiempo = tiempoFalso.Now();
+            tarjetaNormal.cargarSaldo(9000);
+            for (int i = 0; i < 29; i++)
+            {
+                tarjetaNormal.cobrarSaldo(tarifa, tiempo);
+            } // viaje 29
+            Assert.That(tarjetaNormal.getSaldo() == (9000 - 100 * 29), Is.EqualTo(true));
+
+            tarjetaNormal.cobrarSaldo(tarifa, tiempo); //viaje 30
+            Assert.That(tarjetaNormal.getSaldo() == (9000 - 100 * 29 - 80), Is.EqualTo(true));
+
+            for (int i = 0; i < 49; i++)
+            {
+                tarjetaNormal.cobrarSaldo(tarifa, tiempo);
+            }
+            // viaje 79
+            Assert.That(tarjetaNormal.getSaldo() == (9000 - 100 * 29 - 80 * 50), Is.EqualTo(true));
+
+            tarjetaNormal.cobrarSaldo(tarifa, tiempo); // viaje 80
+            Assert.That(tarjetaNormal.getSaldo() == (9000 - 100 * 29 - 80 * 50 - 75), Is.EqualTo(true));
+
+            tarjetaNormal.cobrarSaldo(tarifa, tiempo); // viaje 81
+            Assert.That(tarjetaNormal.getSaldo() == (9000 - 100 * 29 - 80 * 50 - 75 - 100), Is.EqualTo(true));
+
+        }
+
+        // TEST HORARIOS FRANQUICIAS . ITERACION 4 -----------------------------------------------------------------
+        [Test]
+        [TestCase(940)]
+        public void DiasTest2(float tarifa)
+        {
+            DateTime tiempo = tiempoFalso.Now();
+            tarjetaMedioBoleto.cargarSaldo(9000);
+            Assert.That(tarjetaMedioBoleto.PuedeRealizarViaje(tiempo), Is.EqualTo(true));
+
+        }
+
+        [Test]
+        [TestCase(940)]
+        public void DiasTestNo(float tarifa)
+        {
+            DateTime tiempo = new DateTime(2024, 08, 23, 23, 30, 00);
+            tarjetaMedioBoleto.cargarSaldo(9000);
+            Assert.That(tarjetaMedioBoleto.PuedeRealizarViaje(tiempo), Is.EqualTo(false));
+
         }
     }
 }
